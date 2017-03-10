@@ -2,30 +2,42 @@
     ViewBag.Title = "Home Page";
 }
 
+
+<script>
+    $(document).ready(function () {
+        $('hd').click(function () {
+            $('#hide').fadeToggle(4000);
+        });        
+    });
+</script>
 <div class="jumbotron">
     <h2>WORRIED ABOUT YOUR CLOTHES?</h2>
     <p class="lead">Well <em>A touch of Class Dry Cleaners</em> is here to put your all worries to rest.</p>
     @*<p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
 </div>
 
-<div class="row">
+<div style="background-color:#eeeeee; border-style:inset 1px solid;border-radius:5px;text-align:center">
+    <h2 id="hd">A Touch of Class Advantage</h2>
+</div>
+<div id="hide" class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+        <h2>Professional Care</h2>
+        <img src="~/Image/1411-home-col1.jpg" style="width:100%;height:200px" /><br /><br />
+        <p style="text-align:justify">
+            At The <em>A Touch of Class Dry Cleaners</em>, your exquisite fabrics and delicate trims are diligently protected, while removing visible and inconspicuous spots and stains. We take utmost care of your designer labels to recapture their original sophistication and glamor.
         </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>*@
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Bridal</h2>
+        <img src="~/Image/alfred-angelo.jpg" style="width:100%;height:200px" /><br /><br />
+        <p style="text-align:justify">Your bridal dress is a precious keepsake to be treasured for a lifetime and an heirloom for generations to come. Our experts apply sophisticated techniques, taking extreme care to personally inspect and clean every dress individually.</p>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>*@
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Convenience</h2>
+        <img src="~/Image/service.jpg" style="width:100%;height:200px" /><br /><br />
+        <p style="text-align:justify">We understand the value of your time and hence we offer pick-up and drop services.</p>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
     </div>
 </div>

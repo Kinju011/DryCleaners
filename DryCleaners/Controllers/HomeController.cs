@@ -20,6 +20,17 @@ namespace DryCleaners.Controllers
             return View();
         }
 
+        public ActionResult Service()
+        {
+            ViewBag.Message = "Your Services page.";
+            return View();
+        }
+
+        public ActionResult Special()
+        {
+            ViewBag.Message = "Your Special page.";
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
