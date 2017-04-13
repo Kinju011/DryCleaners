@@ -215,7 +215,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Image\1052677.large.jpg" />
+    <Content Include="Image\1411-aboutus.jpg" />
     <Content Include="Image\1411-home-col1.jpg" />
+    <Content Include="Image\1411-Services-left-new.jpg" />
     <Content Include="Image\alfred-angelo.jpg" />
     <Content Include="Image\collection-women.jpg" />
     <Content Include="Image\dressinbox.jpg" />
